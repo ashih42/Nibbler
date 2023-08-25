@@ -1,0 +1,8 @@
+1P Game:
+say -v Samantha -r 180 "you are winner" -o 1P_win.wav --data-format=LEF32@22050
+say -v Samantha -r 180 "you are loser" -o 1P_lose.wav --data-format=LEF32@22050
+
+2P Game:
+say -v Samantha -r 180 "Player 1 is winner" -o 2P_P1_win.wav --data-format=LEF32@22050
+say -v Samantha -r 180 "Player 2 is winner" -o 2P_P2_win.wav --data-format=LEF32@22050
+say -v Samantha -r 180 "Everyone is loser" -o 2P_all_lose.wav --data-format=LEF32@22050
